@@ -43,7 +43,7 @@ def predict_image(img: np.ndarray) -> str:
     with torch.no_grad():  # 기울기 계산 비활성화
         output = model(img_tensor)  # 모델 예측
 
-    _, predicted = torch.max(output, 1)  # 예측된 클래스 찾기
+    _, predicted = torch.max(output, 1)  # 예측된 클래스 q찾기
     return "진짜" if predicted.item() == 0 else "가짜"  # 클래스에 따라 결과 반환
 
 # 바탕화면 경로 설정
@@ -96,7 +96,7 @@ while cap.isOpened():
         # 5장을 찍으면 종료
         if photo_count >= 5:
             print("5장 사진이 찍혔습니다. 프로그램을 종료합니다.")
-            break
+            breakccc
 
     except Exception as e:
         print(f"Error: {e}")  # 에러 출력
