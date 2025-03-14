@@ -39,11 +39,18 @@
 
 ### 결과 이미지
 - **실제 얼굴**:
-<br> <img src="images/Real%20Face.jpg" width="300" height="300"> </br>
+- **실제 얼굴**:
+<div align="center">
+    <img src="images/Real%20Face.jpg" width="300" height="300">
+</div>
 
 - **가짜 얼굴**:
-<br> <img src="images/Fake%20Face.jpg" width="300" height="300"> </br>
-<br> <img src="images/FakeFace.jpg" width="300" height="300"> </br>
+<div align="center">
+    <img src="images/Fake%20Face.jpg" width="300" height="300">
+</div>
+<div align="center">
+    <img src="images/FakeFace.jpg" width="300" height="300">
+</div>
 
 ## 결론
 검증에 사용한 이미지와 비디오는 웹캠과 AI 생성 이미지를 활용하였습니다. 구현 결과에서 실제 인물은 진짜로 인식되었고, AI 생성 이미지와 인형은 가짜로 인식되었습니다. 그러나 실시간 영상에서 품질과 환경변수에 따라 오검출이 발생하는 문제도 있었습니다. 이를 해결하기 위해 전처리 과정과 필터링을 통한 이미지 개선 및 AI 생성 이미지의 패턴 학습을 고려하고 있습니다.
