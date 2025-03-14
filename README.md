@@ -38,7 +38,7 @@
 
 ### 결과 이미지
 - **실제 얼굴**:
-![Real Face](images/Real%20Face.jpg)
+<br>![Real Face](images/Real%20Face.jpg)</br>
 
 - **가짜 얼굴**:
 ![Fake Face](images/Fake%20Face.jpg)
