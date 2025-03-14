@@ -51,7 +51,7 @@
     <img src="images/Fake%20Face.jpg" width="400" height="400">
 </div>
 <div align="center">
-    <img src="images/FakeFace.jpg" width="400" height="400">
+    <img src="images/FakeFace.jpg" width="320" height="400">
 </div>
 
 ## 결론
