@@ -38,10 +38,9 @@
 
 ### 예시 이미지
 ![Fake Face](images/Fake%20Face.jpg)
-![Fake Face](images/Fake%20.Face.jpg)
-- **가짜 얼굴**: 
+- **가짜 얼굴**:
+  
 ![Real Face](images/Real%20Face.jpg)
-
 - **실제 얼굴**: 
 
 ## 결론
