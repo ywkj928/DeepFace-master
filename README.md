@@ -32,7 +32,10 @@
 4. **Yolo.py**
    - Yolo 모델을 이용한 얼굴 탐지
    - 모델 가중치 다운로드 및 로드
-<br>![Real Face](images/Model.jpg)</br>
+     
+<div align="center">
+    <img src="images/Model.jpg" alt="Real Face">
+</div>
 
 ## 구현 결과
 3D 입체 영상을 활용하여 사람과 인형을 구분하는 실험을 진행한 결과, 진짜와 가짜를 효과적으로 구분할 수 있음을 확인하였습니다. 반면, 2D 이미지 비교에서는 오검출이 발생하였습니다. 2D 영상에서의 신뢰도 높은 구분에는 한계가 있음을 알게 되었습니다.
