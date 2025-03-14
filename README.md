@@ -40,7 +40,7 @@
 ### 결과 이미지
 - **실제 얼굴**:
 <div align="center">
-    <img src="images/Real%20Face.jpg" width="300" height="300">
+    <img src="images/Real%20Face.jpg" width="640" height="640">
 </div>
 
 - **가짜 얼굴**:
