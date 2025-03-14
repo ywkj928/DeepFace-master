@@ -37,11 +37,11 @@
 3D 입체 영상을 활용하여 사람과 인형을 구분하는 실험을 진행한 결과, 진짜와 가짜를 효과적으로 구분할 수 있음을 확인하였습니다. 반면, 2D 이미지 비교에서는 오검출이 발생하였습니다. 2D 영상에서의 신뢰도 높은 구분에는 한계가 있음을 알게 되었습니다.
 
 ### 예시 이미지
-![Fake Face](images/Fake%20Face.jpg)
 - **가짜 얼굴**:
-  
+![Fake Face](images/Fake%20Face.jpg)
+
+- **실제 얼굴**:
 ![Real Face](images/Real%20Face.jpg)
-- **실제 얼굴**: 
 
 ## 결론
 검증에 사용한 이미지와 비디오는 웹캠과 AI 생성 이미지를 활용하였습니다. 구현 결과에서 실제 인물은 진짜로 인식되었고, AI 생성 이미지와 인형은 가짜로 인식되었습니다. 그러나 실시간 영상에서 품질과 환경변수에 따라 오검출이 발생하는 문제도 있었습니다. 이를 해결하기 위해 전처리 과정과 필터링을 통한 이미지 개선 및 AI 생성 이미지의 패턴 학습을 고려하고 있습니다.
@@ -51,4 +51,3 @@
 2. Wang, M., & Deng, W. (2021). Deep face recognition: A survey. *Neurocomputing, 429*, 215-244.
 3. Serengil, deepface 2024. A Benchmark of Facial Recognition Pipelines and Co-Usability Performances of Modules.
 4. 아비라미 비나 (2024, 06.21). AI 얼굴 인식 애플리케이션.
-
